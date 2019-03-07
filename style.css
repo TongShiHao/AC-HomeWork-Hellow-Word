@@ -1,0 +1,176 @@
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.namecard, .display {
+  float: left;
+  width: 50%;
+}
+
+.namecard {
+  background-color: #ffcccc;
+  padding: 10px;
+  position: relative;
+  left: 7px;  
+}
+
+.display {
+  height: 590px;
+}
+
+.type_1 {
+  height: 50%;
+  position: relative;
+}
+
+.cover {
+  z-index: 2000;
+  background: rgb(255, 255, 255, 1);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.coverOpen {
+  z-index: 2000;
+  background: rgb(255, 255, 255, 0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.type_2 {
+  height: 50%;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+
+h3 {
+  margin-bottom: 10px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+label {
+  font-weight: bolder;
+  font-family: 微軟正黑體;
+}
+
+.card {
+  padding: 20px;
+}
+
+.type_1 .mySelf,
+.type_1 .myPhoto {
+  float: left;
+  width: 50%
+}
+
+.type_1 .mySelf {
+  text-align: center;
+  height: 100px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.type_1 .myPhoto {
+  margin-top: 10px;
+}
+
+p {
+  margin: 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.type_1 .namecardIntro {
+  font-weight: 400;
+  height: 210px;
+}
+
+.type_1 .namecardType img {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  border: 2px solid #ff99cc;
+  border-radius: 20px;
+}
+
+.type_1 .namecardType {
+  background-image: url("https://images.unsplash.com/photo-1444927714506-8492d94b4e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 2px solid #bbbb;
+  border-radius: 10px;
+  position: relative;
+}
+
+.type_2 .namecardType {
+  z-index: -15;
+  background-image: url("https://images.unsplash.com/photo-1417007594043-344e0104c3ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  border: 2px solid #bbb;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+}
+
+.type_2 .myPhoto,
+.type_2 .mySelf {
+  float: left;
+  height: 206px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  border-radius: 10px;
+}
+
+.type_2 .myPhoto {
+  width: 30%;
+}
+
+.type_2 .mySelf {
+  width: 70%;
+}
+
+.type_2 h3,
+.type_2 p {
+  color: #fff;
+}
+
+.type_2 img {
+  height: 206px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.type_2 .namecardPhone {
+  border-bottom: 2px dashed;
+  padding-bottom: 10px;
+}
+
+.type_2 .namecardIntro {
+  font-weight: 400;
+  overflow: hidden;
+  height: 100px;
+}
